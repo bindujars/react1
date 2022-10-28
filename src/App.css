@@ -1,38 +1,41 @@
-.App {
+h1{
+  text-align:center;
+  font-weight: 300;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.container{
+  width:360px;
+  height:550px;
+  background-color: rgb(192, 220, 236);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 43px 17px rgb(193, 192, 192);
+}
+#bckGnd{
+  background-color:white;
+  height: 80px;
+  width: 320px;
+  font-size: 1.5cm;
+  margin: 15px;
   text-align: center;
+  border-radius: 60px;
+}
+.button{
+  background-color: white;
+  color: black;
+  width: 92px;
+  height: 70px;
+  font-size: x-large;
+  font-weight: 400;
+  margin: 10px;
+  border-radius: 1750px;
+}
+#submit{
+  background-color: rgba(153, 233, 157, 0.833);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clear {
+  background-color: #bdbaba;
 }
