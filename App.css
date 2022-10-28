@@ -1,0 +1,41 @@
+h1{
+  text-align:center;
+  font-weight: 300;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.container{
+  width:360px;
+  height:550px;
+  background-color: rgb(192, 220, 236);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 43px 17px rgb(193, 192, 192);
+}
+#bckGnd{
+  background-color:white;
+  height: 80px;
+  width: 320px;
+  font-size: 1.5cm;
+  margin: 15px;
+  text-align: center;
+  border-radius: 60px;
+}
+.button{
+  background-color: white;
+  color: black;
+  width: 92px;
+  height: 70px;
+  font-size: x-large;
+  font-weight: 400;
+  margin: 10px;
+  border-radius: 1750px;
+}
+#submit{
+  background-color: rgba(153, 233, 157, 0.833);
+}
+
+.clear {
+  background-color: #bdbaba;
+}
