@@ -1,41 +1,136 @@
-h1{
-  text-align:center;
-  font-weight: 300;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+.a
+{position: absolute;
+width: 100%;
+height: 100%;
+background-color:lightcyan;}
 
-}
-.container{
-  width:360px;
-  height:550px;
-  background-color: rgb(192, 220, 236);
-  margin: auto;
-  padding: 5px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 43px 17px rgb(193, 192, 192);
-}
-#bckGnd{
-  background-color:white;
-  height: 80px;
-  width: 320px;
-  font-size: 1.5cm;
-  margin: 15px;
-  text-align: center;
-  border-radius: 60px;
-}
-.button{
-  background-color: white;
-  color: black;
-  width: 92px;
-  height: 70px;
-  font-size: x-large;
-  font-weight: 400;
-  margin: 10px;
-  border-radius: 1750px;
-}
-#submit{
-  background-color: rgba(153, 233, 157, 0.833);
-}
+.b
+{width: 100%;position: absolute;top: 55px;left: 4px;}
 
-.clear {
-  background-color: #bdbaba;
+.b ul li
+{display: inline-block;margin: 0 20px;position: relative;}
+
+.b ul li a 
+{text-decoration: none;color: black;text-transform: uppercase;}
+
+.b ul li::after{content: '';height: 3px;width: 0%;background-color:gray;
+    position: absolute;left: 0;bottom: -10px;transition: .5s;}
+
+.b ul li:hover::after{width: 100%;}
+
+
+
+ .z
+{position: absolute;
+width: 100%;
+height: 10%;
+background-color:dimgray;}
+.box
+{position: absolute;top: 7px;left: 85px; width: 450px;height: 30x;background-color: white;display: flex;border-radius:  30px;}
+.box i{font-size: 20px;}
+.box i{font-size: 20px;}
+.box input{flex: 1;height: 40px;border:none;outline: none;font-size: 15px;border-radius:  30px;padding-left: 10px;}
+
+
+.y
+{position: absolute;
+top: 190px;
+width: 100%;
+text-align: center;
+font-family: sans-serif;
+background-color: darksalmon;}
+.y div a{text-decoration: none;color: black;text-transform: uppercase;}
+
+.t
+{position: absolute;
+width: 100%;
+top: 590;
+left: 0;
+height: 100;
+background-color:gray;
+    color: white;
+text-align: center;}
+.t button{text-align: center;}
+
+button
+{width: 250px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+border-radius: 25px;
+font-weight: bold;
+border: 2px solid black;
+color: darkslategray;
+cursor: pointer;
+position: relative;}
+button:hover span{width: 100%;}
+button:hover{border:none;}
+
+span
+{background-color: gray;
+height: 100%;
+width: 100%;
+border-radius: 25px;
+position: absolute;
+left: 0;
+bottom: 0;
+z-index: -1;
+transition: .5s;}
+
+.logo
+{width: 60px;
+cursor: pointer;}
+
+.j
+{position: absolute;
+top:745px;
+left: 0;
+width: 100%;
+font-size: 35px;}
+
+.j div1
+{position: absolute;top: 20px;left: 10px; width: 260px;height:200px;background-color:aqua;}
+
+.j div2
+{position: absolute;left: 300px;top:20px;width: 260px;height:200px;background-color:aliceblue;}
+
+.j div3
+{position: absolute;top: 20px;left:590px;width: 260px;height:200px;background-color:aliceblue;}
+
+.j div4
+{position: absolute;top: 20px;left:880px;width: 260px;height:200px;background-color:aliceblue;}
+
+.o
+{position: absolute;
+top: 1035px;
+left: 0;
+width: 100%;
+background-color:darkcyan;
+color: white;
+font-family: serif;
+text-transform: uppercase;
+text-align: center;
+text-decoration-style: double;}
+
+.k
+{position: absolute;
+top: 1180;
+left: 0;
+width: 100%;
+    height: 300px;
+background-color: darksalmon;
+color: black;
 }
+.k div5{position: absolute;top: 30;left: 40;width: 300px;height:210px;background-color: aliceblue;}
+.k div5 h1{text-align: center;}
+.k div5 h3{text-align: left;padding: 10px;}
+.k div6{position: absolute;top: 30;left: 420;width: 300px;height:210px;background-color: aliceblue;}
+.k div6 h1{text-align: center;}
+.k div6 h3{text-align: left;padding: 10px;}
+.k div7{position: absolute;top: 30;left:800;width: 300px;height:210px;background-color: aliceblue;}
+.k div7 h1{text-align: center;}
+.k div7 h3{text-align: left;padding: 10px;}
+
+
+.e{position: absolute;top: 1550;left: 0;width: 100%;height: 300;background-color: lightcyan;color: black;}
+.e div8{position: absolute;top: 30;left: 40;width: 200;height: 200;background-color:;}
